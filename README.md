@@ -1,5 +1,7 @@
 # e8-nord-theme
 
+> **Moved.** Nord now lives in [`e8-themes`](https://github.com/e8-editor/e8-themes), with nineteen other themes and `e8-themes-select` to choose among them ([ADR 0067](https://github.com/e8-editor/e8/blob/main/docs/adr/0067-themes-are-one-collection.md)). This repository is archived; configurations that install it keep working at its last tag. To move, replace the `usePackage` line below with `e8.usePackage("e8-editor/e8-themes");`.
+
 The [Nord](https://www.nordtheme.com) theme for [E8](https://github.com/e8-editor/e8): an arctic, north-bluish palette for the base faces, font-lock, the mode line, search, diff, whitespace, Org and completion. A port of [nord-theme.el](https://github.com/nordtheme/emacs) 0.6.0.
 
 ## Installing
